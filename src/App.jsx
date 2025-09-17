@@ -1,10 +1,10 @@
-
-import './App.css'
-
+import Background from './components/Background/Background'
+import Hero from './components/Hero/Hero'
 function App() {
   return (
     <>
-    
+      <Background />
+      <Hero />
     </>
   )
 }
