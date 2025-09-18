@@ -1,0 +1,146 @@
+@use '../../styles/_Theme.scss' as theme;
+
+*{
+      color: theme.$color-white;
+}
+.box{
+    padding: 1rem;
+}
+.profileImgContainer{
+  width: 50%;
+  img{
+    width: 100%;
+    height: auto;
+    border-radius: 25%;
+    border: 4px solid theme.$color-primary;
+    box-shadow: 0 0 10px theme.$color-primary-light;
+  }
+}
+
+.profileText{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  h1{margin-top: 2rem; margin-bottom: 0.2rem; font-size: 2rem;}
+  h2{margin: auto; font-size: 1.6rem;}
+}
+
+.profileButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.6rem;
+    gap: 2rem;
+    
+      a{
+        display: flex;
+        align-items: center;
+        background-color: theme.$color-primary;
+        padding: 0.6rem;
+        gap: 0.2rem;
+        font-size: 1rem;
+        border: 2px solid theme.$color-primary-light;
+        border-radius: 10px;
+        text-decoration: none;
+      }
+}
+
+/* MEDIA QUERIES */
+
+/* Tablet */
+@media (min-width: 768px) {
+  .profileImgContainer{
+    width: 30%;
+  }
+  .profileText{
+    h1{
+      font-size: 2rem;
+    }
+    h2{
+      font-size: 1.8rem;
+    }
+    .profileButtons{
+      gap: 3rem;
+      a{
+        font-size: 1rem;
+        padding: 0.8rem;
+      }
+    }
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .box {
+    display: flex;
+    flex-direction: row;
+    min-height: 28rem;
+    height: auto;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+
+    
+  }
+    .profileText{
+    h1{font-size: 3rem;}
+    h2{font-size: 2.4rem;}
+    .profileButtons{
+      margin-top: 3rem;
+      gap: 3rem;
+      a{font-size: 1rem; padding: 0.8rem;}
+    }
+  }
+}
+
+/* Telas muito grandes */
+@media (min-width: 1440px) {
+    .box{
+      min-height: 40rem;
+    }
+
+    .profileText{
+      h1{font-size: 5rem;}
+      h2{font-size: 3.2rem;}
+      .profileButtons{ 
+        a{font-size: 1.5rem;}
+      }
+  }
+}
+
+
+@media (min-width: 2560px) {
+  .box {
+    max-width: 160rem;
+    min-height: 50rem;
+
+    .profile-img{
+      max-width: 35rem;
+    }
+
+    .profileText{
+    h1{font-size: 8rem;}
+    h2{font-size: 6rem;}
+    .profileButtons{gap: 6rem; margin-top: 4rem;
+      a{font-size: 3rem;padding: 1.2rem;}
+    }
+  }
+  }
+}
+
+@media (min-width: 3840px) {
+  .box {
+    max-width: 200rem;
+    height: 80rem;
+    gap: 8rem;
+    .profileText{
+    h1{font-size: 11rem;}
+    h2{font-size: 8rem;}
+    .profileButtons{gap: 6rem; margin-top: 7rem;
+      a{font-size: 4rem; padding: 2rem;}
+    }
+  }
+  }
+}
