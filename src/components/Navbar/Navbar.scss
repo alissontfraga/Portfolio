@@ -1,0 +1,182 @@
+@charset "UTF-8";
+@use "../../styles/Theme.scss" as theme;
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6rem;
+  background-color: hsla(254, 100%, 19%, 0.596);
+  border-bottom: 2px solid theme.$color-primary;
+  box-shadow: 0px 1px 6px hsl(256, 100%, 70%);
+}
+
+.project-name {
+  padding: 0.4rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.menu-desktop {
+  display: none;
+  gap: 1.8rem;
+
+    a {
+      padding: 0.4rem 1.2rem;
+    text-decoration: none;
+    background-color: theme.$color-primary;
+    border-radius: 8px;
+    border: 2px solid theme.$color-primary-light;
+        &:hover {
+          transition: 0.2s ;
+          background-color: theme.$color-primary-light;
+          border: 2px solid theme.$color-white;
+        }
+    }
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.btn-outline {
+  border: 2px solid theme.$color-primary-light;
+  padding: 0.4rem 1rem;
+  border-radius: 0.5rem;
+  color: theme.$color-white;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+
+.btn-outline:hover {
+  color: #e2e8f0;
+}
+
+.hamburger {
+  font-size: 2rem;
+  color: theme.$color-white;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 40;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 18rem;
+  max-width: 85vw;
+  background: linear-gradient(to bottom, hsla(254, 100%, 19%, 0.8), hsla(254, 95%, 37%, 0.8));
+  backdrop-filter: blur(5px);
+  z-index: 50;
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+  padding: 1.5rem;
+}
+
+.sidebar.open {
+  transform: translateX(0);
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sidebar-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.sidebar-menu a {
+  padding: 0.8rem 0.75rem;
+  font-size: 1.3rem;
+  color: theme.$color-white;
+  border-bottom: 2px solid theme.$color-primary-light;
+  margin-top: 2rem;
+  text-decoration: none;
+
+}
+
+.sidebar-menu a:hover {
+  background: theme.$color-primary-light;
+}
+
+@media (min-width: 768px) {
+  .menu-desktop {
+    display: flex;
+  }
+  .desktop-only {
+    display: inline-block;
+  }
+  .mobile-only {
+    display: none;
+  }
+}
+
+@media (min-width: 1440px) {
+  .navbar {
+    padding: 0.6rem;
+  }
+  .project-name {
+    font-size: 2.2rem;
+  }
+  a{
+    font-size: 1.4rem;
+  }
+  .menu-desktop{
+    gap: 2.4rem;
+      a{
+        padding: 0.5rem 1.4rem;
+      }
+  }
+}
+
+
+@media (min-width: 2560px) {
+  .navbar {
+    padding: 1.1rem;
+  }
+  .project-name {
+    font-size: 3.5rem;
+  }
+  a{
+    font-size: 2.8rem;
+  }
+    .menu-desktop{
+    gap: 2.8rem;
+      a{
+        padding: 0.6rem 3rem;
+      }
+  }
+}
+
+@media (min-width: 3200px) {
+  .navbar {
+    padding: 2rem;
+  }
+  .project-name {
+    font-size: 6rem;
+  }
+  
+  a{font-size: 4.2rem;}
+    .menu-desktop{
+    gap: 6rem;
+      a{ padding: 0.8rem 4rem;}
+  }
+}

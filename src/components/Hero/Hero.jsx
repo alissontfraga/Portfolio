@@ -6,7 +6,7 @@ import styles from '../Hero/Hero.module.scss'
 
 const Hero = () => {
   return (
-    <div>
+    <div id='hero'>
       <Box className={styles.box}> 
         <div className={styles.profileImgContainer}>
             <img src={profileimg} alt="Alisson Teles Fraga smiling facing forward in
