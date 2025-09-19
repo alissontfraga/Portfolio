@@ -1,0 +1,7 @@
+@use '../../styles/_Theme.scss' as theme;
+
+.text{
+    text-align: justify;
+    text-justify: inter-word; /* distribui melhor os espaços */
+    line-height: 1.6;
+}
