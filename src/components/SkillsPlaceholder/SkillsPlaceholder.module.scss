@@ -1,0 +1,126 @@
+.skillPlaceholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 4rem;       // tamanho base
+  margin: 1rem;
+}
+
+.iconWrapper {
+  background-color: white;
+  border-radius: 50%;       
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;       // mantém círculo proporcional
+  height: 3rem;
+  padding: 0.7rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+
+.skillIcon {
+  width: 100%;        // ocupa todo o espaço disponível do padding
+  height: auto;       // mantém proporção
+  max-width: 3rem;    // tamanho base do SVG
+}
+
+.skillTitle {
+  margin-top: 0.5rem;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* MEDIA QUERIES */
+
+    /* Tablet */
+  @media (min-width: 768px) {
+    .skillPlaceholder {
+      width: 5rem;       // aumenta tamanho base
+      margin: 1.5rem;
+    }
+    .iconWrapper {
+      width: 4rem;       // mantém círculo proporcional
+      height: 4rem;
+      padding: 0.7rem;   // aumenta espaço interno para o SVG
+    }
+    .skillIcon {
+      max-width: 4rem;   // aumenta tamanho base do SVG
+    }
+    .skillTitle {
+      font-size: 1.1rem; // aumenta tamanho da fonte
+    }
+  }
+    /* Desktop */
+  @media (min-width: 1024px) {
+    .skillPlaceholder {
+      width: 5.2rem;       // aumenta tamanho base
+    }
+    .iconWrapper {
+      width: 4.2rem;       // mantém círculo proporcional
+      height: 4.2rem;
+    }
+    .skillIcon {
+      max-width: 4.2rem;   // aumenta tamanho base do SVG
+    }
+    .skillTitle {
+      font-size: 1.2rem; // aumenta tamanho da fonte
+    }
+  }
+
+    /* Large Desktop */
+  @media (min-width: 1440px) {
+    .skillPlaceholder {
+      width: 6rem;       // aumenta tamanho base
+      margin: 2rem;
+    }
+    .iconWrapper {
+      width: 6rem;       // mantém círculo proporcional
+      height: 6rem;
+      padding: 0.9rem;   // aumenta espaço interno para o SVG
+    }
+    .skillIcon {
+      max-width: 5rem;   // aumenta tamanho base do SVG
+    }
+    .skillTitle {
+      font-size: 1.4rem; // aumenta tamanho da fonte
+    }
+  }
+
+    /* 2K and up */
+  @media (min-width: 2560px) {
+    .skillPlaceholder {
+      width: 10rem;       // aumenta tamanho base
+      margin: 3rem;
+    }
+    .iconWrapper {
+      width: 10rem;       // mantém círculo proporcional
+      height: 10rem;
+      padding: 1.6rem;   // aumenta espaço interno para o SVG
+    }
+    .skillIcon {
+      max-width: 9rem;   // aumenta tamanho base do SVG
+    }
+    .skillTitle {
+      font-size: 3rem; // aumenta tamanho da fonte
+    }
+  }
+
+    /* 4K and up */
+  @media (min-width: 3840px) {
+    .skillPlaceholder {
+      width: 15rem;       // aumenta tamanho base
+      margin: 4rem;
+    }
+    .iconWrapper {
+      width: 15rem;       // mantém círculo proporcional
+      height: 15rem;
+      padding: 2.3rem;   // aumenta espaço interno para o SVG
+    }
+    .skillIcon {
+      max-width: 13rem;   // aumenta tamanho base do SVG
+    }
+    .skillTitle {
+      font-size: 5rem; // aumenta tamanho da fonte
+    }
+  }
+
