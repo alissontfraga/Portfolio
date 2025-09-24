@@ -1,0 +1,12 @@
+.educationDisplay{
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 2rem;          
+    width: 100%;
+}
+
+@media (min-width: 1024px) {
+    .educationDisplay{
+    display: flex;
+    flex-direction: row;}
+}
