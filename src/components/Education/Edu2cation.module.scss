@@ -1,0 +1,45 @@
+/* .box{
+  
+}
+.cardContainer {
+  display: flex;
+  flex-direction: column; // padrão para mobile
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem; // opcional, pra dar espaço entre os cards
+
+}
+
+@media (min-width: 768px) {
+  .cardContainer{
+    display: flex;
+  flex-direction: row; // muda para row a partir de 768px
+  width: 20%;
+  
+  }
+  .containerOfContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+
+    @media (min-width: 1024px) {
+      .educationDescription {font-size: 1.3rem;}
+    }
+
+    
+    @media (min-width: 1440px) {
+        .educationDescription {font-size: 1.8rem;}
+    }
+
+    @media (min-width: 2560px) { 
+        .educationDescription {font-size: 3rem;}
+    }
+
+    @media (min-width: 3840px) { 
+
+        .educationDescription {font-size: 4rem;}
+    }
+ */
