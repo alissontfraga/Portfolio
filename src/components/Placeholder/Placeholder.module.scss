@@ -1,4 +1,4 @@
-.skillPlaceholder {
+.Placeholder {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,13 +22,13 @@
   box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
 }
 
-.skillIcon {
+.Icon {
   width: 100%;        // ocupa todo o espaço disponível do padding
   height: auto;       // mantém proporção
   max-width: 3rem;    // tamanho base do SVG
 }
 
-.skillTitle {
+.Title {
   margin-top: 0.5rem;
   text-align: center;
   white-space: nowrap;
@@ -38,7 +38,7 @@
 
     /* Tablet */
   @media (min-width: 768px) {
-    .skillPlaceholder {
+    .Placeholder {
       width: 5rem;       // aumenta tamanho base
       margin: 1.5rem;
     }
@@ -47,33 +47,33 @@
       height: 4rem;
       padding: 0.7rem;   // aumenta espaço interno para o SVG
     }
-    .skillIcon {
+    .Icon {
       max-width: 4rem;   // aumenta tamanho base do SVG
     }
-    .skillTitle {
+    .Title {
       font-size: 1.1rem; // aumenta tamanho da fonte
     }
   }
     /* Desktop */
   @media (min-width: 1024px) {
-    .skillPlaceholder {
+    .Placeholder {
       width: 5.2rem;       // aumenta tamanho base
     }
     .iconWrapper {
       width: 4.2rem;       // mantém círculo proporcional
       height: 4.2rem;
     }
-    .skillIcon {
+    .Icon {
       max-width: 4.2rem;   // aumenta tamanho base do SVG
     }
-    .skillTitle {
+    .Title {
       font-size: 1.2rem; // aumenta tamanho da fonte
     }
   }
 
     /* Large Desktop */
   @media (min-width: 1440px) {
-    .skillPlaceholder {
+    .Placeholder {
       width: 6rem;       // aumenta tamanho base
       margin: 2rem;
     }
@@ -82,17 +82,17 @@
       height: 6rem;
       padding: 0.9rem;   // aumenta espaço interno para o SVG
     }
-    .skillIcon {
+    .Icon {
       max-width: 5rem;   // aumenta tamanho base do SVG
     }
-    .skillTitle {
+    .Title {
       font-size: 1.8rem; // aumenta tamanho da fonte
     }
   }
 
     /* 2K and up */
   @media (min-width: 2560px) {
-    .skillPlaceholder {
+    .Placeholder {
       width: 10rem;       // aumenta tamanho base
       margin: 3rem;
     }
@@ -101,17 +101,17 @@
       height: 10rem;
       padding: 1.6rem;   // aumenta espaço interno para o SVG
     }
-    .skillIcon {
+    .Icon {
       max-width: 9rem;   // aumenta tamanho base do SVG
     }
-    .skillTitle {
+    .Title {
       font-size: 3rem; // aumenta tamanho da fonte
     }
   }
 
     /* 4K and up */
   @media (min-width: 3840px) {
-    .skillPlaceholder {
+    .Placeholder {
       width: 15rem;       // aumenta tamanho base
       margin: 4rem;
     }
@@ -120,10 +120,10 @@
       height: 15rem;
       padding: 2.3rem;   // aumenta espaço interno para o SVG
     }
-    .skillIcon {
+    .Icon {
       max-width: 13rem;   // aumenta tamanho base do SVG
     }
-    .skillTitle {
+    .Title {
       font-size: 4rem; // aumenta tamanho da fonte
     }
   }
