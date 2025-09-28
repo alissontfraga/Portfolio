@@ -17,7 +17,7 @@ const Hero = () => {
             <h2>Software Engineer</h2>
                 <div className={styles.profileButtons}>
                     <a href="" ><RxDownload /> Download Resume</a>
-                    <a href=""><MdOutgoingMail /> Contact me</a>
+                    <a href="#contact"><MdOutgoingMail /> Contact me</a>
                 </div>
         </div>
       </Box>
