@@ -1,7 +1,7 @@
 
 import styles from './Skills.module.scss'
 import Box from '../Box/Box'
-import SkillsPlaceholder from '../SkillsPlaceholder/SkillsPlaceholder'
+import Placeholder from '../Placeholder/Placeholder'
 import IconReact from '../../assets/Svg/IconReact'
 import IconJS from '../../assets/Svg/IconJS'
 import IconJava from '../../assets/Svg/IconJava'
@@ -16,14 +16,14 @@ const Skills = () => {
     <div id='skills'>
       <Box title={'Skills'} className= {styles.skillsBox}
         content={ <div className={styles.skillsDisplay}>
-                    <SkillsPlaceholder title="React" Icon={IconReact}/>
-                    <SkillsPlaceholder title="JavaScript" Icon={IconJS}/>
-                    <SkillsPlaceholder title="Java" Icon={IconJava}/>
-                    <SkillsPlaceholder title="C++" Icon={IconCpp}/>
-                    <SkillsPlaceholder title="Python" Icon={IconPython}/>
-                    <SkillsPlaceholder title="Spring" Icon={IconSpring}/>
-                    <SkillsPlaceholder title="SQL" Icon={IconSQL}/>
-                    <SkillsPlaceholder title="AWS Cloud" Icon={IconAWS}/> 
+                    <Placeholder title="React" Icon={IconReact}/>
+                    <Placeholder title="JavaScript" Icon={IconJS}/>
+                    <Placeholder title="Java" Icon={IconJava}/>
+                    <Placeholder title="C++" Icon={IconCpp}/>
+                    <Placeholder title="Python" Icon={IconPython}/>
+                    <Placeholder title="Spring" Icon={IconSpring}/>
+                    <Placeholder title="SQL" Icon={IconSQL}/>
+                    <Placeholder title="AWS Cloud" Icon={IconAWS}/> 
                   </div>
                 }>
       </Box>
