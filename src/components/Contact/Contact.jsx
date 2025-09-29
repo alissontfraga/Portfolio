@@ -15,15 +15,15 @@ const Contact = () => {
       <Box title={'Contact me'} className= {styles.contactBox}
         content={ <div> 
                       <div className={styles.contactIcons}>
-                     <a href='https://github.com/alissontfraga' target='_blank'>
+                     <a href='https://github.com/alissontfraga' target='_blank' rel="noopener noreferrer">
                       <Placeholder title="Github" Icon={GithubIcon} iconWrapperClassName={styles.customiconWrapper}/></a>
 
-                      <a href='https://www.linkedin.com/in/alissontelesfraga/' target='_blank'><Placeholder title="LinkedIn" Icon={LinkedinIcon} iconWrapperClassName={styles.customiconWrapper}/></a>
+                      <a href='https://www.linkedin.com/in/alissontelesfraga/' target='_blank' rel="noopener noreferrer"><Placeholder title="LinkedIn" Icon={LinkedinIcon} iconWrapperClassName={styles.customiconWrapper}/></a>
 
-                      <a href='https://wa.me/5575983702003' target='_blank'>
+                      <a href='https://wa.me/5575983702003' target='_blank' rel="noopener noreferrer">
                       <Placeholder title="Whatsapp" Icon={WhatsappIcon} iconWrapperClassName={styles.customiconWrapper}/></a>
 
-                      <a href='https://www.instagram.com/alissontfraga/' target='_blank'>
+                      <a href='https://www.instagram.com/alissontfraga/' target='_blank' rel="noopener noreferrer">
                       <Placeholder title="Instagram" Icon={InstagramIcon} iconWrapperClassName={styles.customiconWrapper}/></a>
                       </div>
                       <div className={styles.contactStatic}>
