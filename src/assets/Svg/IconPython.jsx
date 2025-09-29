@@ -1,4 +1,4 @@
-import React from "react";
+
 
 const IconPython = ({ width = 80, height = 80, className = "" }) => {
   return (

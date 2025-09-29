@@ -1,4 +1,4 @@
-import React from "react";
+
 
 const IconJava = ({ width = 80, height = 80, className = "" }) => {
   return (
