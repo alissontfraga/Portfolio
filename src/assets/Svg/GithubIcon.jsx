@@ -1,4 +1,6 @@
-const GithubIcon = () => (
+
+const GithubIcon = () => {
+  return (
   <svg viewBox="0 0 20 20" version="1.1" fill="#000000">
     <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
     <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
@@ -15,6 +17,7 @@ const GithubIcon = () => (
       </g>
     </g>
   </svg>
-);
+)
+};
 
 export default GithubIcon;

@@ -1,4 +1,5 @@
-const InstagramIcon = () => (
+const InstagramIcon = () => {
+  return (
   <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g id="SVGRepo_bgCarrier" strokeWidth="0" transform="translate(1.68, 1.68) scale(0.86)">
       <rect x="0" y="0" width="24" height="24" rx="4.8" fill="#9061ff" strokeWidth="0" />
@@ -23,6 +24,7 @@ const InstagramIcon = () => (
       />
     </g>
   </svg>
-);
+)
+};
 
 export default InstagramIcon;
