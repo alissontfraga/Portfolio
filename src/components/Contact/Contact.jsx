@@ -1,13 +1,13 @@
 import styles from './Contact.module.scss'
 import Box from '../Box/Box'
 import Placeholder from '../Placeholder/Placeholder'
-import GithubIcon from '../../assets/Svg/GithubIcon'
-import LinkedinIcon from '../../assets/Svg/LinkedinIcon'
-import EmailIcon from '../../assets/Svg/EmailIcon'
-import WhatsappIcon from '../../assets/Svg/WhatsappIcon'
-import InstagramIcon from '../../assets/Svg/InstagramIcon'
-import PhoneIcon from '../../assets/Svg/PhoneIcon'
-import ResumeIcon from '../../assets/Svg/ResumeIcon'
+import GithubIcon from '../../assets/svg/GithubIcon.jsx'
+import LinkedinIcon from '../../assets/svg/LinkedinIcon.jsx'
+import EmailIcon from '../../assets/svg/EmailIcon.jsx'
+import WhatsappIcon from '../../assets/svg/WhatsappIcon.jsx'
+import InstagramIcon from '../../assets/svg/InstagramIcon.jsx'
+import PhoneIcon from '../../assets/svg/PhoneIcon.jsx'
+import ResumeIcon from '../../assets/svg/ResumeIcon.jsx'
 
 const Contact = () => {
   return (
