@@ -26,13 +26,13 @@ const Contact = () => {
                       <a href='https://www.instagram.com/alissontfraga/' target='_blank' rel="noopener noreferrer">
                       <Placeholder title="Instagram" Icon={InstagramIcon} iconWrapperClassName={styles.customiconWrapper}/></a>
                       </div>
+
                       <div className={styles.contactStatic}>
-                        
                       <a><EmailIcon/> <p>AlissonTFContato2@gmail.com</p> </a>
                       <a><PhoneIcon /> <p> +55 (75) 983702003 </p> </a>
                       <a href="/AlissonFraga_Currículo.pdf" download><ResumeIcon /> <p>Download Resume</p> </a>
-
                       </div>
+                      
                   </div>
                 }>
       </Box>
