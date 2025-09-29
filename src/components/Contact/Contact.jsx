@@ -2,10 +2,10 @@ import styles from './Contact.module.scss'
 import Box from '../Box/Box'
 import Placeholder from '../Placeholder/Placeholder'
 import GithubIcon from '../../assets/Svg/GithubIcon'
-import linkedinIcon from '../../assets/Svg/linkedinIcon'
+import LinkedinIcon from '../../assets/Svg/LinkedinIcon'
 import EmailIcon from '../../assets/Svg/EmailIcon'
-import whatsappIcon from '../../assets/Svg/whatsappIcon'
-import instagramIcon from '../../assets/Svg/instagramIcon'
+import WhatsappIcon from '../../assets/Svg/WhatsappIcon'
+import InstagramIcon from '../../assets/Svg/InstagramIcon'
 import PhoneIcon from '../../assets/Svg/PhoneIcon'
 import ResumeIcon from '../../assets/Svg/ResumeIcon'
 
@@ -18,13 +18,13 @@ const Contact = () => {
                      <a href='https://github.com/alissontfraga' target='_blank'>
                       <Placeholder title="Github" Icon={GithubIcon} iconWrapperClassName={styles.customiconWrapper}/></a>
 
-                      <a href='https://www.linkedin.com/in/alissontelesfraga/' target='_blank'><Placeholder title="LinkedIn" Icon={linkedinIcon} iconWrapperClassName={styles.customiconWrapper}/></a>
+                      <a href='https://www.linkedin.com/in/alissontelesfraga/' target='_blank'><Placeholder title="LinkedIn" Icon={LinkedinIcon} iconWrapperClassName={styles.customiconWrapper}/></a>
 
                       <a href='https://wa.me/5575983702003' target='_blank'>
-                      <Placeholder title="Whatsapp" Icon={whatsappIcon} iconWrapperClassName={styles.customiconWrapper}/></a>
+                      <Placeholder title="Whatsapp" Icon={WhatsappIcon} iconWrapperClassName={styles.customiconWrapper}/></a>
 
                       <a href='https://www.instagram.com/alissontfraga/' target='_blank'>
-                      <Placeholder title="Instagram" Icon={instagramIcon} iconWrapperClassName={styles.customiconWrapper}/></a>
+                      <Placeholder title="Instagram" Icon={InstagramIcon} iconWrapperClassName={styles.customiconWrapper}/></a>
                       </div>
                       <div className={styles.contactStatic}>
                         
