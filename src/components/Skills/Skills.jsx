@@ -2,14 +2,14 @@
 import styles from './Skills.module.scss'
 import Box from '../Box/Box'
 import Placeholder from '../Placeholder/Placeholder'
-import IconReact from '../../assets/Svg/IconReact'
-import IconJS from '../../assets/Svg/IconJS'
-import IconJava from '../../assets/Svg/IconJava'
-import IconCpp from '../../assets/Svg/IconCpp'
-import IconPython from '../../assets/Svg/IconPython'
-import IconSpring from '../../assets/Svg/IconSpring'
-import IconSQL from '../../assets/Svg/IconSQL'
-import IconAWS from '../../assets/Svg/IconAWSCloud'
+import IconReact from '../../assets/svg/IconReact.jsx'
+import IconJS from '../../assets/svg/IconJS'
+import IconJava from '../../assets/svg/IconJava'
+import IconCpp from '../../assets/svg/IconCpp'
+import IconPython from '../../assets/svg/IconPython'
+import IconSpring from '../../assets/svg/IconSpring'
+import IconSQL from '../../assets/svg/IconSQL'
+import IconAWS from '../../assets/svg/IconAWSCloud'
 
 const Skills = () => {
   return (
