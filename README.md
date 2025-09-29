@@ -1,2 +1,2 @@
 # My Portfolio
-Made with React, Javascript, Sass, HTML by Alisson Teles Fraga 
+Made with React, Javascript, Sass, HTML by Alisson Teles Fraga. 
