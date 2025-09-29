@@ -1,7 +1,7 @@
 import styles from './Contact.module.scss'
 import Box from '../Box/Box'
 import Placeholder from '../Placeholder/Placeholder'
-import githubIcon from '../../assets/Svg/githubIcon'
+import GithubIcon from '../../assets/Svg/GithubIcon'
 import linkedinIcon from '../../assets/Svg/linkedinIcon'
 import EmailIcon from '../../assets/Svg/EmailIcon'
 import whatsappIcon from '../../assets/Svg/whatsappIcon'
@@ -16,7 +16,7 @@ const Contact = () => {
         content={ <div> 
                       <div className={styles.contactIcons}>
                      <a href='https://github.com/alissontfraga' target='_blank'>
-                      <Placeholder title="Github" Icon={githubIcon} iconWrapperClassName={styles.customiconWrapper}/></a>
+                      <Placeholder title="Github" Icon={GithubIcon} iconWrapperClassName={styles.customiconWrapper}/></a>
 
                       <a href='https://www.linkedin.com/in/alissontelesfraga/' target='_blank'><Placeholder title="LinkedIn" Icon={linkedinIcon} iconWrapperClassName={styles.customiconWrapper}/></a>
 
