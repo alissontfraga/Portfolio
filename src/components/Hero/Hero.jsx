@@ -6,7 +6,7 @@ import styles from '../Hero/Hero.module.scss'
 
 const Hero = () => {
   return (
-    <div id='hero'>
+    <section id='hero'>
       <Box className={styles.box}> 
         <div className={styles.profileImgContainer}>
             <img src={profileimg} alt="Alisson Teles Fraga smiling facing forward in
@@ -21,7 +21,7 @@ const Hero = () => {
                 </div>
         </div>
       </Box>
-    </div>
+    </section>
   )
 }
 

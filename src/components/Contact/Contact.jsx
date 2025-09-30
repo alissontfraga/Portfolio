@@ -11,7 +11,7 @@ import ResumeIcon from '../../assets/svg/ResumeIcon';
 
 const Contact = () => {
   return (
-    <div id='contact'>
+    <section id='contact'>
       <Box title={'Contact me'} className= {styles.contactBox}
         content={ <div> 
                       <div className={styles.contactIcons}>
@@ -36,7 +36,7 @@ const Contact = () => {
                   </div>
                 }>
       </Box>
-    </div>
+    </section>
   )
 }
 

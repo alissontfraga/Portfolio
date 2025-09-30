@@ -13,7 +13,7 @@ import IconAWS from '../../assets/svg/IconAWSCloud';
 
 const Skills = () => {
   return (
-    <div id='skills'>
+    <section id='skills'>
       <Box title={'Skills'} className= {styles.skillsBox}
         content={ <div className={styles.skillsDisplay}>
                     <Placeholder title="React" Icon={IconReact}/>
@@ -27,7 +27,7 @@ const Skills = () => {
                   </div>
                 }>
       </Box>
-    </div>
+    </section>
   )
 }
 

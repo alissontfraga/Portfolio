@@ -10,7 +10,7 @@ import Box from '../../components/Box/Box'
 
 const Projects = () => {
   return (
-      <div id='projects'>
+      <section id='projects'>
         <Box title="Projects" className="projectsBox">
             <ProjectCard 
             image={projectimg1}
@@ -31,7 +31,7 @@ const Projects = () => {
             description="This is a parallax effect website I created using CSS and HTML, about the Cordel Moderno by Milton Duarte, for study purposes."> 
             <a href="https://github.com/alissontfraga/projeto-de-cordel" target='_blank'>Link</a> </ProjectCard>
         </Box>
-      </div>
+      </section>
   )
 }
 

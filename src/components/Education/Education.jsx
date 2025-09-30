@@ -7,7 +7,7 @@ import educationimg2 from '../../assets/images/educationimg2.png';
 
 const Education = () => {
   return (
-    <div id="education">
+    <section id="education">
         <Box title={'Education'} className={styles.educationBox}>
             <div className={styles.educationDisplay}>
                 <EducationCard image={educationimg1} title={"Cisco - Cyber Threat Management"}/>
@@ -17,7 +17,7 @@ const Education = () => {
 
         </Box>
       
-    </div>
+    </section>
   )
 }
 
