@@ -5,7 +5,7 @@
 This is my **online portfolio**, created to showcase my projects and skills as a frontend developer.  
 The site was built with a focus on **reusable components**, **UI/UX**, and **responsiveness** across all devices.
 
-![Portfolio Screenshot](assets/images/projectreadme.jpg)  
+![Portfolio Screenshot](src/assets/images/projectreadme.jpg)  
 *Screenshot of my online portfolio*
 
 ## Technologies Used
