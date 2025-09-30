@@ -23,8 +23,9 @@ export default function Navbar() {
 
         {/* Desktop menu */}
         <nav className="menu-desktop">
-          <a href="#hero">About me</a>
+          <a href="#about">About me</a>
           <a href="#skills">Skills</a>
+          <a href="#education">Education</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
         </nav>
@@ -67,9 +68,9 @@ export default function Navbar() {
             if (e.target.tagName === "A") setIsOpen(false);
           }}
         >
-          <a href="#hero">Hero</a>
           <a href="#about">About</a>
           <a href="#skills">Skills</a>
+          <a href="#education">Education</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
         </nav>
