@@ -6,7 +6,7 @@ const Footer = () => {
 
   return (
     <footer id='footer' className={styles.footer}>
-      <p>© {year} Alisson Teles Fraga. Todos os direitos reservados.</p>
+      <p>© {year} Alisson Teles Fraga. All rights reserved.</p>
     </footer>
   );
 };
