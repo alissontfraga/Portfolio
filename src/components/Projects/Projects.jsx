@@ -22,7 +22,7 @@ const Projects = () => {
             <ProjectCard 
             image={projectimg4}
             title="User Registration System"
-            description=" I developed a CRUD User Registration system in Java, with a simple layer architecture, using Java, Spring Boot, H2 Database, Spring Data JPA, Lombok, Maven, and Postman for test CRUD operations .
+            description=" I developed a CRUD User Registration system in Java, with a simple layer architecture, using Java, Spring Boot, H2 Database, Spring Data JPA, Lombok, Maven, and Postman for test CRUD operations.
             "> 
             <a href="https://github.com/alissontfraga/cadastro-usuario" target='_blank' rel="noopener noreferrer">Link</a> </ProjectCard> 
 
