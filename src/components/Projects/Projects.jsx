@@ -17,7 +17,7 @@ const Projects = () => {
             title="Portfolio Website"
             description="This is a portfolio I created for myself, using Javascript, HTML, CSS, and responsive design.
             "> 
-            <a href="https://github.com/alissontfraga/projeto-de-cordel" target='_blank' rel="noopener noreferrer">Link</a> </ProjectCard> 
+            <a href="https://github.com/alissontfraga/landing-page" target='_blank' rel="noopener noreferrer">Link</a> </ProjectCard> 
 
             <ProjectCard 
             image={projectimg4}
@@ -30,7 +30,7 @@ const Projects = () => {
             image={projectimg2}
             title="Online Timer"
             description="This is an online timer I made using Javascript, CSS, and HTML, which uses local storage to save the timer's progress, so you can close the page without losing the time."> 
-            <a href="https://github.com/alissontfraga/landing-page" target='_blank' rel="noopener noreferrer">Link</a> </ProjectCard>
+            <a href="https://github.com/alissontfraga/alissontf-timer" target='_blank' rel="noopener noreferrer">Link</a> </ProjectCard>
             
              <ProjectCard 
             image={projectimg3}
