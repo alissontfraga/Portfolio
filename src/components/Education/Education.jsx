@@ -14,7 +14,7 @@ const Education = () => {
                 <EducationCard image={educationimg3} title={"Harvard - Computer Science (CS50x)"}/>
                 <EducationCard image={educationimg1} title={"Cisco - Cyber Threat Management"}/>
                 <EducationCard image={educationimg2} title={"AWS - Cloud Foundations"}/>
-                <EducationCard title={"Anhanguera - Software Engineer (in progress)"}/>
+                <EducationCard title={"Anhanguera - Software Engineering (in progress)"}/>
             </div>
 
         </Box>
