@@ -28,7 +28,3 @@ The site was built with a focus on **reusable components**, **UI/UX**, and **res
 
 🔗 [Check out my portfolio](https://alissontfraga-portfolio.vercel.app)
 
-## Contact
-
-💬 Feel free to send feedback or questions!  
-📧 Email: alissontfcontato2@gmail.com
