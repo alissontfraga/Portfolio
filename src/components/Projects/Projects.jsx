@@ -23,18 +23,20 @@ const Projects = () => {
             <a href="https://github.com/alissontfraga/unspokenwords" target='_blank' rel="noopener noreferrer">Link</a> </ProjectCard> 
 
             <ProjectCard 
+            image={projectimg4}
+            title="Subscription Tracker"
+            description="Backend API (Java Spring Boot) for tracking and managing user subscriptions.
+            Features: User authentication (JWT / Bearer Token), role-based access control (USER / ADMIN), subscription CRUD (price, currency, category, billing frequency, status), admin endpoints, API documentation with OpenAPI / Swagger, database migrations with Flyway, and automated unit and integration tests.
+            "> 
+            <a href="https://github.com/alissontfraga/subscriptiontracker" target='_blank' rel="noopener noreferrer">Link</a> </ProjectCard> 
+
+            <ProjectCard 
             image={projectimg1}
             title="Portfolio Website"
             description="This is a portfolio I created for myself, using Javascript, HTML, CSS, and responsive design.
             "> 
             <a href="https://github.com/alissontfraga/landing-page" target='_blank' rel="noopener noreferrer">Link</a> </ProjectCard> 
 
-            <ProjectCard 
-            image={projectimg4}
-            title="User Registration System"
-            description=" I developed a CRUD User Registration system, with a simple layer architecture, using Java, Spring Boot, H2 Database, Spring Data JPA, Lombok, Maven, and Postman for test CRUD operations.
-            "> 
-            <a href="https://github.com/alissontfraga/cadastro-usuario" target='_blank' rel="noopener noreferrer">Link</a> </ProjectCard> 
 
              <ProjectCard 
             image={projectimg2}
