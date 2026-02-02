@@ -30,7 +30,7 @@ const Contact = () => {
                       <div className={styles.contactStatic}>
                       <a><EmailIcon/> <p>AlissonTFContato2@gmail.com</p> </a>
                       <a><PhoneIcon /> <p> +55 (75) 983702003 </p> </a>
-                      <a href="/AlissonFraga_Curriculo.pdf" download><ResumeIcon /> <p>Download Resume</p> </a>
+                      <a href="/AlissonFragaCurriculo.pdf" download><ResumeIcon /> <p>Download Resume</p> </a>
                       </div>
                       
                   </div>
