@@ -6,6 +6,7 @@ import projectimg2 from '../../assets/images/projectimg2.png'
 import projectimg3 from '../../assets/images/projectimg3.png'
 import projectimg4 from '../../assets/images/projectimg4.png'
 import projectimg5 from '../../assets/images/projectimg5.png'
+import projectimg6 from '../../assets/images/projectimg6.png'
 import Box from '../../components/Box/Box'
 
 
@@ -13,7 +14,14 @@ const Projects = () => {
   return (
       <section id='projects'>
         <Box title="Projects" className="projectsBox">
-          
+
+          <ProjectCard 
+            image={projectimg6}
+            title="PicPay Back-end Challenge"
+            description="RESTful API for financial transfers (PicPay backend challenge), built with Java and Spring Boot. Includes business rules validation, external authorization service integration, RabbitMQ messaging, and comprehensive unit and integration tests.
+            "> 
+            <a href="https://github.com/alissontfraga/unspokenwords" target='_blank' rel="noopener noreferrer">Link</a> </ProjectCard> 
+
             <ProjectCard 
             image={projectimg5}
             title="Unspoken Words"
